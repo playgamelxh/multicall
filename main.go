@@ -14,7 +14,7 @@ import (
 func main() {
     rpc := "https://bsc.publicnode.com"
     chainId := 56
-    contractAddress := common.HexToAddress("0xbb5988b98F7f7119576Dd83A9Ee8399F26805E49")
+    contractAddress := common.HexToAddress("0xd80130CDF6f4c4d4Aa71CaB1aA0C7Fff4b211572")
 
     // client
     client, _ := util.GetEtherClientByRpc(rpc, chainId)
