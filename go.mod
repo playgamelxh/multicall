@@ -5,6 +5,7 @@ go 1.20
 require (
 	github.com/coocood/freecache v1.2.4
 	github.com/ethereum/go-ethereum v1.13.5
+	github.com/shopspring/decimal v1.3.1
 )
 
 require (

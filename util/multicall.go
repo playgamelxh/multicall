@@ -200,7 +200,7 @@ func GetBalanceCall(name string, tokenAddress common.Address, userAddress common
     }
 }
 
-func GetApproveCall(name string, tokenAddress common.Address, userAddress, spender common.Address) Call {
+func GetApproveCall(name string, tokenAddress, userAddress, spender common.Address) Call {
     parsedData, err := erc20Abi.Pack("allowance", userAddress, spender)
     if err != nil {
         panic(err)
